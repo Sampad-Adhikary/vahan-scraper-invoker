@@ -1,0 +1,9 @@
+services:
+  scraper:
+    image: sampad031/vahanscraper:evmaster
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./downloads:/app/downloads_2025
+    working_dir: /app
