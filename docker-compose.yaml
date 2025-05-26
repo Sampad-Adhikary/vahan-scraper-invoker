@@ -1,6 +1,6 @@
 services:
   scraper2025-1:
-    image: sampad031/vahanscraper:evmaster-may
+    image: sampad031/vahanscraper:evmaster-latest
     env_file:
       - .env.2024
     volumes:
@@ -10,7 +10,7 @@ services:
     working_dir: /app
 
   scraper2025-2:
-    image: sampad031/vahanscraper:evmaster-may
+    image: sampad031/vahanscraper:evmaster-latest
     env_file:
       - .env.2025
     volumes:
