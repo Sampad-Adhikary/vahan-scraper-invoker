@@ -1,0 +1,125 @@
+{
+  "Uttar Pradesh": [
+    "Etah - UP82( 27-NOV-2017 )",
+    "Etawah - UP75( 11-OCT-2017 )",
+    "Farrukhabad - UP76( 29-JAN-2018 )",
+    "FATHEHPUR - UP71( 24-JAN-2018 )",
+    "FEROZABAD - UP83( 25-OCT-2017 )",
+    "GHAZIABAD - UP14( 23-JAN-2018 )",
+    "Ghazipur - UP61( 29-JAN-2018 )"
+  ],
+  "Karnataka": [
+    "GOKAK  ARTO - KA49( 25-SEP-2018 )",
+    "HASSAN  RTO - KA13( 09-JUL-2018 )",
+    "HAVERI  RTO - KA27( 23-MAR-2018 )",
+    "HONNAVAR  ARTO - KA47( 29-SEP-2018 )",
+    "HOSPET  RTO - KA35( 28-JUL-2018 )",
+    "HUNSUR  ARTO - KA45( 11-JUL-2018 )",
+    "JAMKHANDI  ARTO - KA48( 21-DEC-2018 )",
+    "JNANABHARATHI  RTO - KA41( 24-JAN-2019 )",
+    "KALABURAGI  RTO - KA32( 25-JUL-2018 )",
+    "KARWAR  RTO - KA30( 29-SEP-2018 )",
+    "K G F  ARTO - KA8( 21-JUN-2018 )",
+    "KOLAR  RTO - KA7( 21-JUN-2018 )",
+    "KOPPAL  RTO - KA37( 02-AUG-2018 )",
+    "KRISHNARAJAPURAM  RTO - KA53( 06-FEB-2019 )",
+    "MADHUGIRI, TUMAKURU ARTO - KA64( 22-FEB-2019 )",
+    "MADIKERI  RTO - KA12( 23-JUL-2018 )",
+    "MANDYA  RTO - KA11( 21-JUL-2018 )",
+    "MANGALORE  RTO - KA19( 27-MAR-2018 )",
+    "MYSURU  EAST  RTO - KA55( 12-JUL-2018 )",
+    "MYSURU WEST  RTO - KA9( 12-JUL-2018 )",
+    "NAGAMANGALA  RTO - KA54( 23-JUL-2018 )",
+    "NELAMANGALA  RTO - KA52( 13-AUG-2018 )",
+    "PUTTUR  RTO - KA21( 27-MAR-2018 )",
+    "RAICHUR  RTO - KA36( 27-JUL-2018 )",
+    "RAMANAGAR  RTO - KA42( 02-JAN-2018 )",
+    "RAMDURGA ARTO - KA69( 19-JUL-2018 )",
+    "RANIBENNUR ARTO - KA68( 24-FEB-2018 )",
+    "REGIONAL TRANSPORT OFFICE BELAGAVI - KA22( 20-SEP-2018 )",
+    "SAGAR  ARTO - KA15( 29-JUN-2018 )",
+    "SAKALESHPURA  ARTO - KA46( 09-JUL-2018 )",
+    "SHIMOGA  RTO - KA14( 29-JUN-2018 )",
+    "SIRSI  RTO - KA31( 29-SEP-2018 )"
+  ],
+  "Maharashtra": [
+    "BEED - MH23( 17-MAR-2017 )"
+  ],
+  "Manipur": [
+    "BISHNUPUR - MN5( 27-AUG-2018 )"
+  ],
+  "Andhra Pradesh": [
+    "Salur MVI Office - AP235( 12-MAY-2022 )",
+    "Srikakulam RTA - AP30( 25-APR-2022 )",
+    "Srikalahasthi MVI Office - AP603( 12-MAY-2022 )",
+    "Sullurpet UO - AP426( 11-MAY-2022 )",
+    "Tadepalli Gudem UO - AP437( 06-MAY-2022 )",
+    "Tadipatri UO - AP402( 06-MAY-2022 )",
+    "Tanuku UO - AP537( 06-MAY-2022 )",
+    "Tekkali MVI Office - AP430( 12-MAY-2022 )",
+    "TENALI RTA - AP707( 06-MAY-2022 )",
+    "Tirupati RTA - AP103( 25-APR-2022 )",
+    "UNIT OFFICE KATHIPUDI - AP305( 06-MAY-2022 )",
+    "UNIT OFFICE RAYADURG - AP502( 23-JUN-2022 )",
+    "Vijayawada RTA - AP16( 17-FEB-2022 )",
+    "Vishakapatnam RTA - AP31( 25-APR-2022 )",
+    "Vizianagaram RTA - AP35( 25-APR-2022 )",
+    "Vuyyuru UO - AP516( 05-MAY-2022 )"
+  ],
+  "Madhya Pradesh": [
+    "MORENA DTO - MP6( 23-JUL-2022 )",
+    "NARSINGHPUR DTO - MP49( 23-JUL-2022 )",
+    "NEEMUCH DTO - MP44( 23-JUL-2022 )",
+    "NIWARI DTO - MP71( 20-OCT-2023 )",
+    "PANNA DTO - MP35( 23-JUL-2022 )",
+    "RAISEN DTO - MP38( 23-JUL-2022 )",
+    "RAJGARH DTO - MP39( 23-JUL-2022 )",
+    "RATLAM DTO - MP43( 23-JUL-2022 )",
+    "REWA RTO - MP17( 23-JUL-2022 )",
+    "SAGAR RTO - MP15( 23-JUL-2022 )",
+    "SATNA ARTO - MP19( 23-JUL-2022 )",
+    "SEHORE DTO - MP37( 23-JUL-2022 )",
+    "SEONI ARTO - MP22( 23-JUL-2022 )",
+    "SHAHDOL RTO - MP18( 23-JUL-2022 )",
+    "SHAJAPUR DTO - MP42( 23-JUL-2022 )",
+    "SHEOPUR DTO - MP31( 23-JUL-2022 )",
+    "SHIVPURI DTO - MP33( 23-JUL-2022 )",
+    "SIDHI DTO - MP53( 26-JUL-2022 )",
+    "SINGROLI DTO - MP66( 23-JUL-2022 )",
+    "STATE TRANSPORT AUTHORITY - MP999( 14-FEB-2023 )",
+    "TIKAMGARH DTO - MP36( 23-JUL-2022 )",
+    "UJJAIN RTO - MP13( 23-JUL-2022 )",
+    "UMARIA DTO - MP54( 26-JUL-2022 )"
+  ],
+  "Mizoram": [
+    "AIZAWL DTO - MZ1( 29-AUG-2017 )",
+    "AIZAWL RURAL DTO - MZ9( 29-AUG-2017 )",
+    "CHAMPHAI - MZ4( 29-AUG-2017 )",
+    "KOLASIB - MZ5( 29-AUG-2017 )",
+    "LAWNGTLAI - MZ7( 10-MAY-2018 )",
+    "LUNGLEI - MZ2( 29-AUG-2017 )",
+    "MAMIT - MZ8( 29-AUG-2017 )",
+    "SAIHA - MZ3( 29-AUG-2017 )",
+    "SERCHHIP - MZ6( 29-AUG-2017 )"
+  ],
+  "Nagaland": [
+    "DIMAPUR DTO - NL7( 19-JUN-2018 )"
+  ],
+  "Bihar": [
+    "BHABHUA - BR45( 23-JAN-2018 )"
+  ],
+  "Rajasthan": [
+    "BALAJI FITNESS CENTER (HANUMANGARH) - RJ209( 15-OCT-2019 )"
+  ],
+  "UT of DNH and DD": [
+    "SILVASSA - DD1( 20-DEC-2017 )"
+  ],
+  "Gujarat": [
+    "SURAT - GJ5( 24-JUL-2017 )",
+    "SURENDRANAGAR - GJ13( 16-MAY-2017 )",
+    "TAPI - GJ26( 25-APR-2017 )",
+    "VADODARA - GJ6( 13-JUL-2017 )",
+    "VALSAD - GJ15( 09-MAY-2017 )",
+    "VERAVAL - GJ32( 21-MAR-2017 )"
+  ]
+}
