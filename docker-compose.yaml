@@ -1,20 +1,33 @@
 services:
   scraper2025-1:
-    image: sampad031/vahanscraper:evmaster-latest
+    image: sampad031/vahanscraper:delhiscraper2025
     env_file:
-      - .env.2024
+      - .env.first
     volumes:
       - ./logs/logs_2025_1:/app/logs
-      - ./downloads/downloads_2025_1:/app/downloads_2025
+      - ./downloads/downloads_2025:/app/downloads_2025
       - ./retries/retries_2025_1:/app/retries
+      - ./source:/app/source
     working_dir: /app
-
+  
   scraper2025-2:
-    image: sampad031/vahanscraper:evmaster-latest
+    image: sampad031/vahanscraper:delhiscraper2025
     env_file:
-      - .env.2025
+      - .env.second
     volumes:
       - ./logs/logs_2025_2:/app/logs
-      - ./downloads/downloads_2025_2:/app/downloads_2025
+      - ./downloads/downloads_2025:/app/downloads_2025
       - ./retries/retries_2025_2:/app/retries
+      - ./source:/app/source
+    working_dir: /app
+  
+  scraper2025-3:
+    image: sampad031/vahanscraper:delhiscraper2025
+    env_file:
+      - .env.third
+    volumes:
+      - ./logs/logs_2025_3:/app/logs
+      - ./downloads/downloads_2025:/app/downloads_2025
+      - ./retries/retries_2025_3:/app/retries
+      - ./source:/app/source
     working_dir: /app
