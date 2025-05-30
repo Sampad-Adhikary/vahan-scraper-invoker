@@ -43,7 +43,7 @@ services:
       - pg-server
   
   daily-rto-scraper-1:
-    image: sampad031/vahanscraper:dailyrtoupdater
+    image: sampad031/vahanscraper:dailyrtoupdater2
     env_file:
       - .env.first
     volumes:
@@ -57,7 +57,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-2:
-    image: sampad031/vahanscraper:dailyrtoupdater
+    image: sampad031/vahanscraper:dailyrtoupdater2
     env_file:
       - .env.second
     volumes:
@@ -71,7 +71,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-3:
-    image: sampad031/vahanscraper:dailyrtoupdater
+    image: sampad031/vahanscraper:dailyrtoupdater2
     env_file:
       - .env.third
     volumes:
@@ -85,7 +85,7 @@ services:
       - vahan-net
 
   daily-rto-scraper-4:
-    image: sampad031/vahanscraper:dailyrtoupdater
+    image: sampad031/vahanscraper:dailyrtoupdater2
     env_file:
       - .env.fourth
     volumes:
@@ -99,7 +99,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-5:
-    image: sampad031/vahanscraper:dailyrtoupdater
+    image: sampad031/vahanscraper:dailyrtoupdater2
     env_file:
       - .env.fourth
     volumes:
