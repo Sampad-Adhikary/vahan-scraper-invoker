@@ -1,6 +1,6 @@
 services: 
   custom-rto-scraper-1:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoupdater
     env_file:
       - .env.first
     volumes:
@@ -14,7 +14,7 @@ services:
       - vahan-net
   
   custom-rto-scraper-2:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoupdater
     env_file:
       - .env.second
     volumes:
@@ -28,7 +28,7 @@ services:
       - vahan-net
   
   custom-rto-scraper-3:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoupdater
     env_file:
       - .env.third
     volumes:
@@ -42,7 +42,7 @@ services:
       - vahan-net
 
   custom-rto-scraper-4:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoupdater
     env_file:
       - .env.fourth
     volumes:
@@ -56,7 +56,7 @@ services:
       - vahan-net
   
   custom-rto-scraper-5:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoupdater
     env_file:
       - .env.fourth
     volumes:
