@@ -1,11 +1,11 @@
 services: 
   custom-rto-scraper-1:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoscraper2
     env_file:
       - .env.first
     volumes:
       - /home/vahan/logs/previous-year/logs_2025_1:/app/logs
-      - /home/vahan/downloads/previous-year:/app/downloads
+      - /home/vahan/downloads:/app/downloads
       - /home/vahan/retries/previous-year/retries_2025_1:/app/retries
       - ./source:/app/source
     working_dir: /app
@@ -14,12 +14,12 @@ services:
       - vahan-net
   
   custom-rto-scraper-2:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoscraper2
     env_file:
       - .env.second
     volumes:
       - /home/vahan/logs/previous-year/logs_2025_2:/app/logs
-      - /home/vahan/downloads/previous-year:/app/downloads
+      - /home/vahan/downloads:/app/downloads
       - /home/vahan/retries/previous-year/retries_2025_2:/app/retries
       - ./source:/app/source
     working_dir: /app
@@ -28,12 +28,12 @@ services:
       - vahan-net
   
   custom-rto-scraper-3:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoscraper2
     env_file:
       - .env.third
     volumes:
       - /home/vahan/logs/previous-year/logs_2025_3:/app/logs
-      - /home/vahan/downloads/previous-year:/app/downloads
+      - /home/vahan/downloads:/app/downloads
       - /home/vahan/retries/previous-year/retries_2025_3:/app/retries
       - ./source:/app/source
     working_dir: /app
@@ -42,12 +42,12 @@ services:
       - vahan-net
 
   custom-rto-scraper-4:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoscraper2
     env_file:
       - .env.fourth
     volumes:
       - /home/vahan/logs/previous-year/logs_2025_4:/app/logs
-      - /home/vahan/downloads/previous-year:/app/downloads
+      - /home/vahan/downloads:/app/downloads
       - /home/vahan/retries/previous-year/retries_2025_4:/app/retries
       - ./source:/app/source
     working_dir: /app
@@ -56,12 +56,12 @@ services:
       - vahan-net
   
   custom-rto-scraper-5:
-    image: sampad031/vahanscraper:dailyrtoscraper
+    image: sampad031/vahanscraper:dailyrtoscraper2
     env_file:
       - .env.fifth
     volumes:
       - /home/vahan/logs/previous-year/logs_2025_5:/app/logs
-      - /home/vahan/downloads/previous-year:/app/downloads
+      - /home/vahan/downloads:/app/downloads
       - /home/vahan/retries/previous-year/retries_2025_5:/app/retries
       - ./source:/app/source
     working_dir: /app
