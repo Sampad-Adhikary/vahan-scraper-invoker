@@ -68,34 +68,6 @@ services:
     restart: unless-stopped
     networks:
       - vahan-net
-  
-  custom-rto-scraper-6:
-    image: sampad031/playwrightscraper:v0306
-    env_file:
-      - .env.sixth
-    volumes:
-      - /home/vahan/logs/previous-year/logs_2024_6:/app/logs
-      - /home/vahan/downloads:/app/downloads
-      - /home/vahan/retries/previous-year/retries_2024_6:/app/retries
-      - ./source:/app/source
-    working_dir: /app
-    restart: unless-stopped
-    networks:
-      - vahan-net
-  
-  custom-rto-scraper-7:
-    image: sampad031/playwrightscraper:v0306
-    env_file:
-      - .env.seventh
-    volumes:
-      - /home/vahan/logs/previous-year/logs_2024_7:/app/logs
-      - /home/vahan/downloads:/app/downloads
-      - /home/vahan/retries/previous-year/retries_2024_7:/app/retries
-      - ./source:/app/source
-    working_dir: /app
-    restart: unless-stopped
-    networks:
-      - vahan-net
 
 networks:
   vahan-net:
