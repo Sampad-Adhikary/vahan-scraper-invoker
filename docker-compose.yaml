@@ -29,7 +29,7 @@ services:
       - vahan-net
   
   backend-server:
-    image: sampad031/data-processor:0406
+    image: sampad031/data-processor:05062025
     env_file:
       - .env.backend
     ports:
