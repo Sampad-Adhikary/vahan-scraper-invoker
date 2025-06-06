@@ -54,20 +54,6 @@ services:
     restart: unless-stopped
     networks:
       - vahan-net
-  
-  custom-rto-scraper-5:
-    image: sampad031/vahanscraper:rtoscraper04062025
-    env_file:
-      - .env.fifth
-    volumes:
-      - /home/vahan/logs/previous-year/logs_2024_5:/app/logs
-      - /home/vahan/downloads:/app/downloads
-      - /home/vahan/retries/previous-year/retries_2024_5:/app/retries
-      - ./source:/app/source
-    working_dir: /app
-    restart: unless-stopped
-    networks:
-      - vahan-net
 
 networks:
   vahan-net:
