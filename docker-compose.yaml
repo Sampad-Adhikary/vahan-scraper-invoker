@@ -7,8 +7,6 @@ services:
     volumes:
       - /home/vahan/logs/daily_scraper_logs:/app/logs
     working_dir: /app
-    depends_on:
-      - pg-server
     restart: unless-stopped
     networks:
       - vahan-net
