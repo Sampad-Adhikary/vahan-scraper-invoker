@@ -14,7 +14,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-tw-1:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.first.tw
     volumes:
@@ -28,7 +28,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-tw-2:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.second.tw
     volumes:
@@ -42,7 +42,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-tw-3:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.third.tw
     volumes:
@@ -56,7 +56,7 @@ services:
       - vahan-net
 
   daily-rto-scraper-tw-4:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.fourth.tw
     volumes:
@@ -70,7 +70,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-tw-5:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.fifth.tw
     volumes:
@@ -84,7 +84,7 @@ services:
       - vahan-net
 
   daily-rto-scraper-3w-1:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.first.3w
     volumes:
@@ -98,7 +98,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-3w-2:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.second.3w
     volumes:
@@ -112,7 +112,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-3w-3:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.third.3w
     volumes:
@@ -126,7 +126,7 @@ services:
       - vahan-net
 
   daily-rto-scraper-3w-4:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.fourth.3w
     volumes:
@@ -140,7 +140,7 @@ services:
       - vahan-net
   
   daily-rto-scraper-3w-5:
-    image: sampad031/vahanscraper:dailyrtoupdater04062025
+    image: sampad031/vahanscrapermulti:07062025
     env_file:
       - .env.fifth.3w
     volumes:
